@@ -5,8 +5,8 @@ Start the script, add your details and a new plugin repo based on [obsidianmd/ob
 
 ## Requirements
 1. Install `git` (https://git-scm.com/downloads)
-1. Install `github cli` (eg. via [brew](https://brew.sh/): `brew install gh`)
-2. Set up [Automatically Open the Current Directory in VS Code From Terminal](https://shannoncrabill.com/blog/shell-command-open-directory-in-vscode/) (it's pretty straight-forward)
+2. Install `github cli` (eg. via [brew](https://brew.sh/): `brew install gh`)
+3. *Optional*: Set up [Automatically Open the Current Directory in VS Code From Terminal](https://shannoncrabill.com/blog/shell-command-open-directory-in-vscode/) (it's pretty straight-forward)
 
 ## All set up ready to go
 ### Core
