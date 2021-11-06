@@ -4,7 +4,8 @@ This is a bash script that makes creating new plugins quick and easy.
 Start the script, add your details and a new plugin repo based on [obsidianmd/obsidian-sample-plugin](https://github.com/obsidianmd/obsidian-sample-plugin) gets created with all your details. Bob's your uncle!
 
 ## Requirements
-1. Install `github cli` via [brew](https://brew.sh/) – `brew install gh`
+1. Install `git` (https://git-scm.com/downloads)
+1. Install `github cli` (eg. via [brew](https://brew.sh/): `brew install gh`)
 2. Set up [Automatically Open the Current Directory in VS Code From Terminal](https://shannoncrabill.com/blog/shell-command-open-directory-in-vscode/) (it's pretty straight-forward)
 
 ## All set up ready to go
