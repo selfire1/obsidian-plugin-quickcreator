@@ -89,7 +89,7 @@ sed -i "" "s/FINDME/$pluginID/" release.yml
 cd ../..
 git add .
 git commit -m "🎉 init"
-git push origin master
+git push origin main
 
 # Open in browser to verify
 gh repo view --web
