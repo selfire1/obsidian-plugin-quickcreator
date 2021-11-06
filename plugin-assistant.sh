@@ -49,8 +49,8 @@ echo "✅ # ${pluginID}" > README.md
 echo "✅ Updated readme"
 
 # Find and replace in manifest.json
-findStrings=( "obsidian-sample-plugin" "Sample Plugin" 1.0.1 "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API." "\"author\": \"Obsidian\"" "\"authorURL\": \"obsidian.md\"")
-replaceStrings=( $pluginID "$pluginName" $pluginStartVersion "$pluginDesc" "\"author\": \"$pluginAuthor\"" "\"authorURL\": \"$authorURL\"")
+findStrings=( "obsidian-sample-plugin" "Sample Plugin" 1.0.1 "This is a sample plugin for Obsidian. This plugin demonstrates some of the capabilities of the Obsidian API." "\"author\": \"Obsidian\"" "\"obsidian.md\"")
+replaceStrings=( $pluginID "$pluginName" $pluginStartVersion "$pluginDesc" "\"author\": \"$pluginAuthor\"" "\"$authorURL\"")
 
 for (( n=0; n<${#findStrings[@]}; n++ ))
 do
