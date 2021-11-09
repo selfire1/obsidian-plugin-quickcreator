@@ -45,7 +45,7 @@ git push origin --delete master
 echo "✅ Default set to main"
 
 # Change docs
-echo "✅ # ${pluginID}" > README.md
+echo "# ${pluginID}" > README.md
 echo "✅ Updated readme"
 
 # Find and replace in manifest.json
